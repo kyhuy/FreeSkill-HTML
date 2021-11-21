@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Forms</title>
+   </head>
+   <body>
+      <a href="./index.html">home Page</a>
+      <h1>Forms</h1>
+      <form method="POST" action="about_me.html">
+         <label for="email">Email / UserName</label><br />
+         <input
+            id="email"
+            name="userName"
+            type="text"
+            placeholder="myEmail"
+         /><br /><br />
+         <label for="pass">Password</label><br />
+         <input type="password" id="pass" name="pass" /><br /><br />
+         <input
+            id="remember_me"
+            type="checkbox"
+            value="remember"
+            name="remember_me"
+         />
+         <label for="remember_me">Remember me</label>
+         <br /><br />
+         <label for="favorite_color">Favorite Color</label>
+         <select id="favorite_color" name="favorite_color">
+            <option>Choose your color</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="purple">Purple</option>
+         </select>
+         <br /><br />
+         <input type="submit" value="Log in" />
+      </form>
+   </body>
+</html>
